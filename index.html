@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -16,9 +16,7 @@
       --border: #d7dee8;
     }
 
-    * {
-      box-sizing: border-box;
-    }
+    * { box-sizing: border-box; }
 
     body {
       font-family: "Segoe UI", sans-serif;
@@ -48,30 +46,22 @@
       color: #dce6f2;
     }
 
-    header p,
-    header a {
+    header p, header a {
       margin: 0.3rem 0;
       color: #dce6f2;
       text-decoration: none;
     }
 
-    header a:hover,
-    a:hover {
-      text-decoration: underline;
-    }
+    header a:hover, a:hover { text-decoration: underline; }
 
-    .top-links {
-      margin-top: 0.9rem;
-    }
+    .top-links { margin-top: 0.9rem; }
 
-    nav {
-      margin-top: 1.2rem;
-    }
+    nav { margin-top: 1.2rem; }
 
     nav a {
       display: inline-block;
       padding: 0.45rem 0.8rem;
-      border: 1px solid rgba(255, 255, 255, 0.25);
+      border: 1px solid rgba(255,255,255,0.25);
       border-radius: 999px;
       color: #dce6f2;
     }
@@ -88,7 +78,7 @@
       border: 1px solid var(--border);
       border-radius: 14px;
       padding: 1.5rem;
-      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.03);
+      box-shadow: 0 2px 10px rgba(0,0,0,0.03);
     }
 
     h2 {
@@ -100,30 +90,17 @@
       font-size: 1.35rem;
     }
 
-    h3 {
-      color: var(--primary);
-      margin-bottom: 0.5rem;
-    }
+    p { margin: 0.6rem 0; }
 
-    p {
-      margin-top: 0.6rem;
-      margin-bottom: 0.6rem;
-    }
-
-    ul,
-    ol {
+    ul, ol {
       padding-left: 1.25rem;
       margin-top: 0.8rem;
       margin-bottom: 0;
     }
 
-    li {
-      margin-bottom: 0.7rem;
-    }
+    li { margin-bottom: 0.7rem; }
 
-    a {
-      color: var(--secondary);
-    }
+    a { color: var(--secondary); }
 
     .hero-note {
       max-width: 820px;
@@ -133,7 +110,7 @@
 
     .grid-2 {
       display: grid;
-      grid-template-columns: repeat(2, minmax(0, 1fr));
+      grid-template-columns: repeat(2, minmax(0,1fr));
       gap: 1.2rem;
     }
 
@@ -157,7 +134,6 @@
       border: 1px solid #c8d7ea;
       border-radius: 999px;
       padding: 0.45rem 0.85rem;
-      margin-bottom: 0;
       font-size: 0.95rem;
     }
 
@@ -167,28 +143,15 @@
     }
 
     @media (max-width: 768px) {
-      .grid-2 {
-        grid-template-columns: 1fr;
-      }
-
-      header h1 {
-        font-size: 1.9rem;
-      }
-
-      main {
-        padding: 1.25rem 1rem 2rem;
-      }
-
-      section {
-        padding: 1.2rem;
-      }
+      .grid-2 { grid-template-columns: 1fr; }
+      header h1 { font-size: 1.9rem; }
     }
   </style>
 </head>
 <body>
   <header>
     <h1>Carlos Alfonso Mantilla Duarte</h1>
-    <p class="subtitle">PhD Candidate | Applied Statistics | Spatial Data Analysis | Econometrics | Data Storytelling</p>
+    <p class="subtitle">Candidato a Doctor | Estadística Aplicada | Análisis Espacial | Econometría | Storytelling con Datos</p>
     <p>Email: cmanduar@uis.edu.co | cmanduar@correo.uis.edu.co</p>
     <p class="top-links">
       <a href="https://orcid.org/0000-0002-6349-1834" target="_blank" rel="noopener noreferrer">ORCID</a> |
@@ -196,158 +159,101 @@
       <a href="https://www.scopus.com/authid/detail.uri?authorId=57217146910" target="_blank" rel="noopener noreferrer">Scopus</a>
     </p>
     <p class="hero-note">
-      I combine rigorous quantitative research with a strong pedagogical vocation focused on the critical and creative use of computational tools such as R, Python, Power BI, and LaTeX.
+      Combino investigación cuantitativa rigurosa con una vocación pedagógica centrada en el uso crítico y creativo de herramientas como R, Python, Power BI y LaTeX.
     </p>
-    <nav>
-      <a href="index.html">Versión en Español</a>
-    </nav>
   </header>
 
   <main>
     <section>
-      <h2>Professional Profile</h2>
+      <h2>Perfil Profesional</h2>
       <p>
-        I am a PhD candidate in applied statistics, with a solid background in spatial data analysis, econometric modeling, and narrative visualization. My academic trajectory combines research, teaching, and content development, with particular emphasis on entropy and complexity metrics, spatial systems, educational innovation, and data-informed communication.
+        Soy candidato a doctor en estadística aplicada, con formación en análisis de datos espaciales, modelación econométrica y visualización narrativa. Mi trayectoria integra investigación, docencia y desarrollo de contenidos, con énfasis en métricas de entropía, complejidad, sistemas espaciales e innovación educativa.
       </p>
       <p>
-        My work explores phenomena ranging from three-dimensional seismic structures to educational inequality and social mobility, while also developing teaching strategies based on digital content, interactive visualizations, project-based learning, and visual storytelling. I believe software should not be taught merely as an operational tool, but as a means to think, model, and communicate with data in an ethical, effective, and transformative way.
+        Mi trabajo aborda fenómenos que van desde estructuras sísmicas tridimensionales hasta desigualdades educativas y movilidad social. Paralelamente, diseño estrategias de enseñanza basadas en contenidos digitales, visualización interactiva, aprendizaje por proyectos y storytelling con datos. Considero que el software no debe enseñarse únicamente como herramienta operativa, sino como medio para pensar, modelar y comunicar con datos.
       </p>
       <ul class="pill-list">
         <li>R</li>
         <li>Python</li>
         <li>Power BI</li>
         <li>LaTeX</li>
-        <li>Spatial Statistics</li>
-        <li>Econometrics</li>
-        <li>Data Visualization</li>
-        <li>Educational Innovation</li>
+        <li>Estadística Espacial</li>
+        <li>Econometría</li>
+        <li>Visualización</li>
+        <li>Innovación Educativa</li>
       </ul>
     </section>
 
     <div class="grid-2">
       <section>
-        <h2>Academic Background</h2>
+        <h2>Formación Académica</h2>
         <ul>
-          <li>Ph.D. in Mathematical and Applied Statistics – Universidad de Granada, Spain (in progress)</li>
-          <li>Master’s in Applied Statistics – Universidad de Granada, Spain</li>
-          <li>Postgraduate Specialization in Statistics – Universidad Industrial de Santander, Colombia</li>
-          <li>Economist – Universidad Industrial de Santander, Colombia</li>
+          <li>Doctorado en Estadística Matemática y Aplicada – Universidad de Granada (en curso)</li>
+          <li>Maestría en Estadística Aplicada – Universidad de Granada</li>
+          <li>Especialización en Estadística – Universidad Industrial de Santander</li>
+          <li>Economista – Universidad Industrial de Santander</li>
         </ul>
       </section>
 
       <section>
-        <h2>Research Areas</h2>
+        <h2>Líneas de Investigación</h2>
         <ul>
-          <li>Spatial and spatio-temporal statistics</li>
-          <li>Applied econometrics</li>
-          <li>Entropy, complexity, and information theory</li>
-          <li>Multilevel analysis in education and social mobility</li>
-          <li>Data science, visualization, and storytelling</li>
-          <li>AI-supported teaching and assessment</li>
+          <li>Estadística espacial y espacio-temporal</li>
+          <li>Econometría aplicada</li>
+          <li>Entropía, complejidad y teoría de la información</li>
+          <li>Análisis multinivel en educación</li>
+          <li>Visualización de datos y storytelling</li>
+          <li>Uso de IA en docencia y evaluación</li>
         </ul>
       </section>
     </div>
 
     <section>
-      <h2>Professional Experience</h2>
+      <h2>Experiencia Profesional</h2>
       <ul>
-        <li>Associate Professor – Universidad Industrial de Santander (2013–present)</li>
-        <li>Data Analysis Specialist – Universidad Industrial de Santander</li>
-        <li>Manager – Grupo Asesor en Estadística y Prospectiva</li>
-        <li>Adjunct Lecturer – Universidad de Pamplona</li>
+        <li>Profesor Asociado – Universidad Industrial de Santander (2013–presente)</li>
+        <li>Especialista en análisis de datos – UIS</li>
+        <li>Director – Grupo Asesor en Estadística y Prospectiva</li>
+        <li>Docente cátedra – Universidad de Pamplona</li>
       </ul>
       <p class="meta">
-        My experience combines university teaching, curriculum design, student assessment, technical consulting, and the development of data-driven academic and institutional projects.
+        Experiencia en docencia universitaria, diseño curricular, evaluación académica y desarrollo de proyectos institucionales basados en datos.
       </p>
     </section>
 
     <section>
-      <h2>Teaching and Academic Development</h2>
+      <h2>Docencia y Desarrollo Académico</h2>
       <p>
-        I design and teach courses in econometrics, spatial data analysis, time series in R, data visualization and storytelling, and Power BI for academic and professional audiences. My teaching practice is strongly oriented toward applied learning, reproducibility, and the integration of computational thinking into disciplinary training.
+        Diseño e imparto cursos en econometría, análisis espacial, series de tiempo en R, visualización de datos y Power BI. Mi enfoque se centra en el aprendizaje aplicado, la reproducibilidad y el pensamiento computacional.
       </p>
       <p>
-        I have also developed educational interventions based on short-form videos, digital platforms, interactive dashboards, and structured assessment frameworks, particularly in statistics and econometrics education.
+        He desarrollado intervenciones educativas basadas en videos cortos, plataformas digitales, dashboards interactivos y evaluación estructurada.
       </p>
     </section>
 
     <section>
-      <h2>Selected Peer-reviewed Scientific Publications</h2>
+      <h2>Publicaciones Científicas</h2>
       <ol>
         <li>
           Mantilla-Duarte, C.A., Angulo, J.M. (2025).
-          <em>Entropy-based assessment of complexity structural effects of the third dimension, case seismic nest of Los Santos (Colombia)</em>.
-          <strong>Stochastic Environmental Research and Risk Assessment</strong>, 39, 911–923.
-          <a href="https://doi.org/10.1007/s00477-024-02890-1" target="_blank" rel="noopener noreferrer">DOI</a>
-        </li>
-        <li>
-          Fernandez-Pinto, H., Mantilla-Duarte, C.A., Prada Villamizar, S., Sarmiento Suarez, J.E. (2024).
-          <em>Horizontal innovation: The core of open innovation in the construction of the dynamic capacities in the Colombian industry</em>.
-          <strong>Journal of Open Innovation: Technology, Market, and Complexity</strong>, 10(1), 100229.
-          <a href="https://doi.org/10.1016/j.joitmc.2024.100229" target="_blank" rel="noopener noreferrer">DOI</a>
-        </li>
-        <li>
-          Bello-Angulo, D., Mantilla-Duarte, C., Montes-Paez, E., García-Restrepo, D., Romero-Ríos, F.A. (2022).
-          <em>Box–Jenkins Methodology Application to Improve Crude Oil Production Forecasting: Case Study in a Colombian Field</em>.
-          <strong>Arabian Journal for Science and Engineering</strong>, 47, 11269–11278.
-          <a href="https://doi.org/10.1007/s13369-021-05997-7" target="_blank" rel="noopener noreferrer">DOI</a>
-        </li>
-        <li>
-          Garavito Hernández, Y., Mantilla-Duarte, C.A., Rueda Galvis, J.F., Uribe Bermúdez, J.M. (2020).
-          <em>Impact of Employee Training and Strategic Alliances on Business Innovation and Survival</em>.
-          <strong>Utopía y Praxis Latinoamericana</strong>, 25(Special Edition 5).
-          <a href="https://doi.org/10.5281/zenodo.3984208" target="_blank" rel="noopener noreferrer">DOI</a>
-        </li>
-        <li>
-          López, C.I., Bautista, L.E., Mantilla-Duarte, C.A. (2020).
-          <em>A Novel Approach to Learning Virtual Engineering in the Medical Devices Process</em>.
-          <strong>Education and Information Technologies</strong>, 25, 5703–5729.
-          <a href="https://doi.org/10.1007/s10639-020-10236-x" target="_blank" rel="noopener noreferrer">DOI</a>
-        </li>
-        <li>
-          López Gualdrón, C., Rojas, K., Ruiz, I., Mantilla, C.A., Fuentes, D. (2017).
-          <em>Evaluación por simulación de nuevo modelo de implante de cadera para pacientes específicos</em> [Simulation-Based Evaluation of a New Hip Implant Model for Specific Patients].
-          <strong>Revista de la Facultad de Ingeniería UCV</strong>, 32, 7–18.
-        </li>
-        <li>
-          Meneses, F., Bautista, L.E., Mantilla, C.A. (2017).
-          <em>Evaluación metrológica de la estructura OptiTrack-Motive para el rastreo de objetos en el espacio quirúrgico aplicado en perforación de túneles tibial y femoral en reconstrucción de ligamento cruzado anterior de rodilla</em>
-          [Metrological Evaluation of the OptiTrack-Motive System for Object Tracking in Surgical Space Applied to Tibial and Femoral Tunnel Drilling in ACL Reconstruction].
-          <strong>Bistua</strong>, 15(1).
-        </li>
-        <li>
-          Mantilla-Duarte, C.A., Montes-Paez, E.G., Calvete González, F.E. (n.d.).
-          <em>Aplicación de series de tiempo en la realización de pronósticos de producción</em>
-          [Application of Time Series in Production Forecasting].
-          <strong>El Reventón Energético</strong>, UIS.
+          <em>Entropy-based assessment of complexity structural effects...</em>
+          <strong>Stochastic Environmental Research and Risk Assessment</strong>.
+          <a href="https://doi.org/10.1007/s00477-024-02890-1" target="_blank">DOI</a>
         </li>
       </ol>
     </section>
 
     <section>
-      <h2>Technical and Outreach Publications</h2>
-      <ol>
-        <li><strong>Practical Manual for Visualization with Power BI</strong> – Author, 2024.</li>
-        <li><strong>Technical Guide for Spatial Analysis with R</strong> – Author, 2023.</li>
-        <li>Mantilla-Duarte, C.A. (2015). <em>Más Bayes, menos Chi Cuadrada</em> [More Bayes, Less Chi-Square]. <strong>Signos Fónicos</strong>, 1, pp. 116–122.</li>
-        <li>Mantilla-Duarte, C.A. (2008). <em>500 empresas generadoras de desarrollo en Santander</em> [500 Development-Driving Companies in Santander]. <strong>Vanguardia Liberal – Sunday Supplement</strong>, 1, pp. 1–164.</li>
-        <li>Mantilla-Duarte, C.A. (2018). <em>Habilidades psicolingüísticas en estudiantes habitantes de frontera</em> [Psycholinguistic Skills in Students Living Near Borders]. <strong>Signos Fónicos</strong>, 4, pp. 1–12.</li>
-        <li>Mantilla-Duarte, C.A., Rivera Capacho, E., Pinzón Alvarado, O.D. (2016). <em>Prevalencia de síndrome de apnea obstructiva del sueño (SAOS) en población adulto mayor</em> [Prevalence of Obstructive Sleep Apnea Syndrome in the Elderly Population]. <strong>Signos Fónicos</strong>, 2, pp. 15–27.</li>
-        <li>Mantilla-Duarte, C.A., Rivera Capacho, E., Rangel Navia, H.J., Albarracín Suescún, F.J., Mogollón Tolosa, M.X. (2015). <em>Relación entre los vectores de crecimiento mandibular anteroposterior y vertical con talla y peso en niños entre dos y cuatro años usando la paquimetría orofacial</em> [Relationship Between Anteroposterior and Vertical Mandibular Growth Vectors with Height and Weight in Children Aged Two to Four Using Orofacial Pachymetry]. <strong>Signos Fónicos</strong>, 1, pp. 201–219.</li>
-      </ol>
-    </section>
-
-    <section>
-      <h2>Selected Academic and Professional Interests</h2>
+      <h2>Intereses Académicos</h2>
       <ul>
-        <li>Entropy-based approaches to spatial complexity</li>
-        <li>Spatial econometrics and multilevel models</li>
-        <li>Seismic and socioeconomic data analysis</li>
-        <li>Data visualization for research and institutional communication</li>
-        <li>Use of AI in higher education, assessment, and content design</li>
+        <li>Complejidad y entropía en sistemas espaciales</li>
+        <li>Econometría espacial</li>
+        <li>Análisis de datos sísmicos y socioeconómicos</li>
+        <li>Visualización para investigación</li>
+        <li>IA en educación superior</li>
       </ul>
       <p class="tagline">
-        From Bucaramanga, Colombia, I work at the intersection of technical complexity and accessible understanding, in both academic and social contexts.
+        Desde Bucaramanga, trabajo en la intersección entre complejidad técnica y comprensión accesible.
       </p>
     </section>
   </main>
